@@ -1,0 +1,18 @@
+﻿<script src="~/js/crudoperation/crudoperation.js"></script>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@* <h1>Index</h1> *@
+
+
+
+<div id="divDetail" style="display:none">
+    @Html.Partial("Detail")
+</div>
+
+<div id="divSummary">
+    @Html.Partial("Summary")
+</div> 
